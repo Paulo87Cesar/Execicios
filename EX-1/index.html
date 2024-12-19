@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Execicio 1 JS </title>
+</head>
+<body>
+    <div class="box">
+        <h1>Cadastro de Recrutas</h1>
+        <p>Escreva um programa em javascript que permita salvar informações de um recruta. As informações a serem salvas são:</p>
+        <ul>
+            <li>o primeiro nome</li>
+            <li>o sobrenome</li>
+            <li>o campo de estudo</li>
+            <li>o ano de nascimento</li>
+        </ul>
+    </div>
+    <div class="box-2">
+        <form id="form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required><br><br>
+    
+            <label for="profissao">Profissão:</label>
+            <input type="text" id="profissao" required><br><br>
+    
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" required><br><br>
+    
+            <button type="button" onclick="mostrarInformacoes()">Enviar</button>
+
+            <h2>Informações:</h2>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+        </form>
+    </div>
+    
+</body>
+</html>
