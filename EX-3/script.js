@@ -17,7 +17,7 @@ function calcular() {
      O carro ${carro2} é mais veloz!`
     }else {
               document.getElementById('resultado').innerHTML = `
-     O carro ${carro} e o ${carro2} tem a mesma velocidade!`
+     Os carros ${carro} e ${carro2} tem a mesma velocidade!`
     }
     
 }
