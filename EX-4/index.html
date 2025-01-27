@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo de Dano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cálculo de Dano</h1>
+
+    
+    <!-- Formulário para Personagem de Ataque -->
+    <h2>Personagem Atacante</h2>
+    <label for="attackerName">Nome:</label>
+    <input type="text" id="attackerName" placeholder="Nome do atacante">
+
+    <label for="attackPower">Poder de Ataque:</label>
+    <input type="number" id="attackPower" placeholder="Poder de ataque">
+
+    <!-- Formulário para Personagem de Defesa -->
+    <h2>Personagem Defensor</h2>
+    <label for="defenderName">Nome:</label>
+    <input type="text" id="defenderName" placeholder="Nome do defensor">
+
+    <label for="healthPoints">Pontos de Vida:</label>
+    <input type="number" id="healthPoints" placeholder="Pontos de vida">
+
+    <label for="defensePower">Poder de Defesa:</label>
+    <input type="number" id="defensePower" placeholder="Poder de defesa">
+
+    <label for="hasShield">Possui escudo?</label>
+    <select id="hasShield">
+      <option value="true">Sim</option>
+      <option value="false">Não</option>
+    </select>
+
+    <!-- Botão de Cálculo -->
+    <button onclick="calculateDamage()">Calcular Dano</button>
+
+    <!-- Resultado -->
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+</html>
