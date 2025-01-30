@@ -5,27 +5,20 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #564592;
 }
 
 .speed {
-    background-color: rgb(241, 90, 90);
+    background-color: rgb(241, 241, 199);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     margin: 20px;
+    text-align: center;
+ 
 }
 
-
-input {
-    margin: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
- ul {
+ul {
     list-style-type: none; /* Remove os marcadores */
     padding: 0; /* Remove o padding padrão */
     text-align: center; /* Centraliza o texto dentro da lista */
@@ -36,6 +29,13 @@ ul li {
     margin: 0 10px; /* Espaçamento entre os itens */
 }
 
+input {
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 button {
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -43,13 +43,10 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 button:hover {
     background-color: #45a049;
 }
 
-p {
-    margin-top: 20px;
-    font-size: 18px;
-}
