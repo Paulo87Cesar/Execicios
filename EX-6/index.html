@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="speed">
+
+        <h1>Visitando Novas Cidades</h1>
+
+        <p>
+
+            Escreva um programa em javascript que peça o nome de um turista e então pergunte se ele já visitou alguma
+            cidade. Caso a resposta seja sim, pergunte o nome da cidade e o armazene em uma variável, e então continue
+            perguntando se o turista visitou alguma outra cidade até que a resposta seja não. No fim, o programa deve
+            exibir o nome do turista, quantas e quais cidades ele visitou.</p>
+
+
+
+        <h1>Registro de Turista</h1>
+        <div id="app">
+            <!-- Entrada do nome do turista -->
+            <div id="entradaNome">
+                <label for="nomeTurista">Nome do Turista:</label>
+                <input type="text" id="nomeTurista" placeholder="Digite seu nome">
+                <button onclick="iniciarQuestionario()">Iniciar Questionário</button>
+            </div>
+
+            <!-- Área para exibir o nome do turista -->
+            <div id="exibirNome" style="display: none;">
+                <p><strong>Nome do Turista:</strong> <span id="nomeTuristaExibido"></span></p>
+            </div>
+
+            <!-- Área para perguntar sobre cidades visitadas -->
+            <div id="perguntaCidade" style="display: none;">
+                <p>Você visitou alguma cidade?</p>
+                <button onclick="respostaSim()">Sim</button>
+                <button onclick="respostaNao()">Não</button>
+            </div>
+
+            <!-- Área para inserir o nome da cidade -->
+            <div id="inserirCidade" style="display: none;">
+                <label for="nomeCidade">Nome da cidade visitada:</label>
+                <input type="text" id="nomeCidade" placeholder="Digite o nome da cidade">
+                <button onclick="adicionarCidade()">Adicionar</button>
+            </div>
+
+            <!-- Área para exibir a lista de cidades -->
+            <div id="listaCidades" style="display: none;">
+                <p><strong>Cidades Visitadas:</strong></p>
+                <ul id="cidadesVisitadasLista"></ul>
+            </div>
+
+            <!-- Área para exibir o resultado final -->
+            <div id="resultado" style="display: none;"></div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
