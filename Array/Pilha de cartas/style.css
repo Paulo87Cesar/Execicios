@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: rgba(25, 219, 99, 0.986);
+}
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+ 
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+} 
+
+.image img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 3rem;
+    border-radius: 4rem;
+}
