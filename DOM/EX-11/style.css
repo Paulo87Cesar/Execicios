@@ -1,0 +1,21 @@
+.box {
+    background-color: aquamarine;
+   
+    padding: 10px 10px;   
+}
+
+body{
+    background-color: rgb(164, 165, 224);
+    font-family: sans-serif;
+}
+
+.box-2{
+ background-color: aqua;
+ 
+}
+
+button{
+    
+    background-color: rgb(143, 236, 124);
+    
+}
